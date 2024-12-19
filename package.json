@@ -9,5 +9,10 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@rpii/wdio-html-reporter": "^7.7.1",
+    "@wdio/allure-reporter": "^9.4.4",
+    "wdio-html-nice-reporter": "^8.1.7"
   }
 }
